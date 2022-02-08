@@ -1,5 +1,5 @@
 if(localStorage.getItem("username") == null) {
-    document.location = 'home.html';
+    document.location = 'index.html';
 }
 
 import * as THREE from './three.module.js';
@@ -238,7 +238,7 @@ document.getElementById("play").addEventListener('click', () => {
 });
 
 document.getElementById("back").addEventListener('click', () => {
-    document.location = "home.html";
+    document.location = "index.html";
 });
 
 window.addEventListener('mousedown', () => {
