@@ -28,7 +28,7 @@
             <br>
             <input type="submit" value="REGISTER" class="button">
             <br>
-            <a href="home.html" class="button">BACK</a>
+            <a href="index.html" class="button">BACK</a>
         </form>
     </div>
 </div>
@@ -48,11 +48,11 @@
         }
         localStorage.setItem("username", username);
         window.event.returnValue = false;
-        document.location = 'home.html';
+        document.location = 'index.html';
     }
 
     if(localStorage.getItem("username") != null) {
-        document.location = 'home.html';
+        document.location = 'index.html';
     }
 </script>
 </body>
