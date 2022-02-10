@@ -178,7 +178,7 @@ function init() {
     renderer.setAnimationLoop(() => {
         if(controls.isLocked && !controls.isFrozen) {
 
-            const scaleChange = 0.00005 * difficulty;
+            const scaleChange = 0.005 * difficulty;
 
             enemy.scale.x -= scaleChange;
             enemy.scale.y -= scaleChange;
